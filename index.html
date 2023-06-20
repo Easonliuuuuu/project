@@ -1,0 +1,1374 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_fb26ed8a1bea7cac409be4429ea2ecd8 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_fb26ed8a1bea7cac409be4429ea2ecd8" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_fb26ed8a1bea7cac409be4429ea2ecd8 = L.map(
+                "map_fb26ed8a1bea7cac409be4429ea2ecd8",
+                {
+                    center: [0, 0],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 1,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_f381ebb18a563d5c78ee4618892753f5 = L.tileLayer(
+                "https://stamen-tiles-{s}.a.ssl.fastly.net/terrain/{z}/{x}/{y}.jpg",
+                {"attribution": "Map tiles by \u003ca target=\"_blank\" href=\"http://stamen.com\"\u003eStamen Design\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://creativecommons.org/licenses/by/3.0\"\u003eCC BY 3.0\u003c/a\u003e. Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://creativecommons.org/licenses/by-sa/3.0\"\u003eCC BY SA\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_fb26ed8a1bea7cac409be4429ea2ecd8);
+        
+    
+            var circle_marker_772631acc7b4a59e3063ca10855e2c3d = L.circleMarker(
+                [-0.9813, 98.4808],
+                {"bubblingMouseEvents": true, "color": "#1abc9c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1abc9c", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.7240187772131295, "stroke": true, "weight": 3}
+            ).addTo(map_fb26ed8a1bea7cac409be4429ea2ecd8);
+        
+    
+        var popup_6eea2e18267f051d38805ed35d76eb93 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_71c4a5b2c8f911db0a4be6fab591d647 = $(`<div id="html_71c4a5b2c8f911db0a4be6fab591d647" style="width: 100.0%; height: 100.0%;">M 4.7 - 169 km NW of Tuapejat, Indonesia at 2023-06-20 15:44:52 (UTC+8)</div>`)[0];
+                popup_6eea2e18267f051d38805ed35d76eb93.setContent(html_71c4a5b2c8f911db0a4be6fab591d647);
+            
+        
+
+        circle_marker_772631acc7b4a59e3063ca10855e2c3d.bindPopup(popup_6eea2e18267f051d38805ed35d76eb93)
+        ;
+
+        
+    
+    
+            var circle_8fa39731159f9927d5b267ac7f59ba38 = L.circle(
+                [-0.9813, 98.4808],
+                {"bubblingMouseEvents": true, "color": "#3186cc", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3186cc", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4.7, "stroke": true, "weight": 3}
+            ).addTo(map_fb26ed8a1bea7cac409be4429ea2ecd8);
+        
+    
+        var popup_e0f16bbd22b0c3fd74cca185a5a3413e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ca9706db7635ba1f4dc5845811f63034 = $(`<div id="html_ca9706db7635ba1f4dc5845811f63034" style="width: 100.0%; height: 100.0%;">M 4.7 - 169 km NW of Tuapejat, Indonesia at 2023-06-20 15:44:52 (UTC+8)</div>`)[0];
+                popup_e0f16bbd22b0c3fd74cca185a5a3413e.setContent(html_ca9706db7635ba1f4dc5845811f63034);
+            
+        
+
+        circle_8fa39731159f9927d5b267ac7f59ba38.bindPopup(popup_e0f16bbd22b0c3fd74cca185a5a3413e)
+        ;
+
+        
+    
+    
+            var marker_513ecfa0fda200fe3efade26af773ac8 = L.marker(
+                [-0.9813, 98.4808],
+                {}
+            ).addTo(map_fb26ed8a1bea7cac409be4429ea2ecd8);
+        
+    
+            var icon_07f4777d336771fd1943255b91ad391d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "circle", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_513ecfa0fda200fe3efade26af773ac8.setIcon(icon_07f4777d336771fd1943255b91ad391d);
+        
+    
+        var popup_d217316f2431a242abbf7f5af5f1d4e1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4f2c37fcee5398df2cb92d031cf0f13b = $(`<div id="html_4f2c37fcee5398df2cb92d031cf0f13b" style="width: 100.0%; height: 100.0%;">M 4.7 - 169 km NW of Tuapejat, Indonesia at 2023-06-20 15:44:52 (UTC+8)</div>`)[0];
+                popup_d217316f2431a242abbf7f5af5f1d4e1.setContent(html_4f2c37fcee5398df2cb92d031cf0f13b);
+            
+        
+
+        marker_513ecfa0fda200fe3efade26af773ac8.bindPopup(popup_d217316f2431a242abbf7f5af5f1d4e1)
+        ;
+
+        
+    
+    
+            marker_513ecfa0fda200fe3efade26af773ac8.bindTooltip(
+                `<div>
+                     M 4.7 - 169 km NW of Tuapejat, Indonesia at 2023-06-20 15:44:52 (UTC+8)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_752acd815f0dd0c3d2599f801d9743d4 = L.marker(
+                [-0.9813, 98.4808],
+                {}
+            ).addTo(map_fb26ed8a1bea7cac409be4429ea2ecd8);
+        
+    
+            var div_icon_dfbe71f0e20bf619d28e20d502dccbad = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 10pt; color: white;\"\u003e4.7\u003c/div\u003e", "iconAnchor": [9, 25], "iconSize": [18, 70]});
+            marker_752acd815f0dd0c3d2599f801d9743d4.setIcon(div_icon_dfbe71f0e20bf619d28e20d502dccbad);
+        
+    
+            var circle_marker_1b1280b0bb27c9ad775044adf7eac5e2 = L.circleMarker(
+                [-23.9108, -175.0309],
+                {"bubblingMouseEvents": true, "color": "#1abc9c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1abc9c", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.235207512532524, "stroke": true, "weight": 3}
+            ).addTo(map_fb26ed8a1bea7cac409be4429ea2ecd8);
+        
+    
+        var popup_1e08e99284d234d87ad960641f84fb16 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_19d0b9488f292c485d9fc3f5b7eccb77 = $(`<div id="html_19d0b9488f292c485d9fc3f5b7eccb77" style="width: 100.0%; height: 100.0%;">M 5.2 - 284 km S of ‘Ohonua, Tonga at 2023-06-20 11:45:35 (UTC+8)</div>`)[0];
+                popup_1e08e99284d234d87ad960641f84fb16.setContent(html_19d0b9488f292c485d9fc3f5b7eccb77);
+            
+        
+
+        circle_marker_1b1280b0bb27c9ad775044adf7eac5e2.bindPopup(popup_1e08e99284d234d87ad960641f84fb16)
+        ;
+
+        
+    
+    
+            var circle_b08b6a1cbbd2eded1af62c4fb37986e3 = L.circle(
+                [-23.9108, -175.0309],
+                {"bubblingMouseEvents": true, "color": "#3186cc", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3186cc", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.2, "stroke": true, "weight": 3}
+            ).addTo(map_fb26ed8a1bea7cac409be4429ea2ecd8);
+        
+    
+        var popup_6a12b4450ae250f57d8842bd173d8eb3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b92f47b485b7dd15107a6489c325bc0e = $(`<div id="html_b92f47b485b7dd15107a6489c325bc0e" style="width: 100.0%; height: 100.0%;">M 5.2 - 284 km S of ‘Ohonua, Tonga at 2023-06-20 11:45:35 (UTC+8)</div>`)[0];
+                popup_6a12b4450ae250f57d8842bd173d8eb3.setContent(html_b92f47b485b7dd15107a6489c325bc0e);
+            
+        
+
+        circle_b08b6a1cbbd2eded1af62c4fb37986e3.bindPopup(popup_6a12b4450ae250f57d8842bd173d8eb3)
+        ;
+
+        
+    
+    
+            var marker_2f9e45de438466d08428b6973b723ba8 = L.marker(
+                [-23.9108, -175.0309],
+                {}
+            ).addTo(map_fb26ed8a1bea7cac409be4429ea2ecd8);
+        
+    
+            var icon_9295594b3e2d3aa0d79680935251b48a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "circle", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_2f9e45de438466d08428b6973b723ba8.setIcon(icon_9295594b3e2d3aa0d79680935251b48a);
+        
+    
+        var popup_252f08334f122c88cdf07bac59c088ab = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_20ef04e5f32ce22e8ff0997087fb4db1 = $(`<div id="html_20ef04e5f32ce22e8ff0997087fb4db1" style="width: 100.0%; height: 100.0%;">M 5.2 - 284 km S of ‘Ohonua, Tonga at 2023-06-20 11:45:35 (UTC+8)</div>`)[0];
+                popup_252f08334f122c88cdf07bac59c088ab.setContent(html_20ef04e5f32ce22e8ff0997087fb4db1);
+            
+        
+
+        marker_2f9e45de438466d08428b6973b723ba8.bindPopup(popup_252f08334f122c88cdf07bac59c088ab)
+        ;
+
+        
+    
+    
+            marker_2f9e45de438466d08428b6973b723ba8.bindTooltip(
+                `<div>
+                     M 5.2 - 284 km S of ‘Ohonua, Tonga at 2023-06-20 11:45:35 (UTC+8)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_19b0200a28777a83607f05a7848372f0 = L.marker(
+                [-23.9108, -175.0309],
+                {}
+            ).addTo(map_fb26ed8a1bea7cac409be4429ea2ecd8);
+        
+    
+            var div_icon_26118547343ea2599e34b784d2dfc769 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 10pt; color: white;\"\u003e5.2\u003c/div\u003e", "iconAnchor": [9, 25], "iconSize": [18, 70]});
+            marker_19b0200a28777a83607f05a7848372f0.setIcon(div_icon_26118547343ea2599e34b784d2dfc769);
+        
+    
+            var circle_marker_6d7b8a57ca81b74b3c796dee4bd99ead = L.circleMarker(
+                [5.8897, 126.4683],
+                {"bubblingMouseEvents": true, "color": "#1abc9c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1abc9c", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.456836534418065, "stroke": true, "weight": 3}
+            ).addTo(map_fb26ed8a1bea7cac409be4429ea2ecd8);
+        
+    
+        var popup_eeb63d1f67904ba234503f04be91c986 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0176d90a4922e01d76f6c0e0d5c374ac = $(`<div id="html_0176d90a4922e01d76f6c0e0d5c374ac" style="width: 100.0%; height: 100.0%;">M 4.6 - 61 km SSE of Pondaguitan, Philippines at 2023-06-20 09:45:41 (UTC+8)</div>`)[0];
+                popup_eeb63d1f67904ba234503f04be91c986.setContent(html_0176d90a4922e01d76f6c0e0d5c374ac);
+            
+        
+
+        circle_marker_6d7b8a57ca81b74b3c796dee4bd99ead.bindPopup(popup_eeb63d1f67904ba234503f04be91c986)
+        ;
+
+        
+    
+    
+            var circle_8ff4d50d899ec61090cdb08579a01c15 = L.circle(
+                [5.8897, 126.4683],
+                {"bubblingMouseEvents": true, "color": "#3186cc", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3186cc", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4.6, "stroke": true, "weight": 3}
+            ).addTo(map_fb26ed8a1bea7cac409be4429ea2ecd8);
+        
+    
+        var popup_1ad15efd6ee71d9735ed711b7fb8da34 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d8fdefd7c27ee1673a7c5c056fb37b1e = $(`<div id="html_d8fdefd7c27ee1673a7c5c056fb37b1e" style="width: 100.0%; height: 100.0%;">M 4.6 - 61 km SSE of Pondaguitan, Philippines at 2023-06-20 09:45:41 (UTC+8)</div>`)[0];
+                popup_1ad15efd6ee71d9735ed711b7fb8da34.setContent(html_d8fdefd7c27ee1673a7c5c056fb37b1e);
+            
+        
+
+        circle_8ff4d50d899ec61090cdb08579a01c15.bindPopup(popup_1ad15efd6ee71d9735ed711b7fb8da34)
+        ;
+
+        
+    
+    
+            var marker_fee05bedf5dfb64f66de89f41742cc3e = L.marker(
+                [5.8897, 126.4683],
+                {}
+            ).addTo(map_fb26ed8a1bea7cac409be4429ea2ecd8);
+        
+    
+            var icon_c8cbb5255962002bce50ade7234d97b9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "circle", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_fee05bedf5dfb64f66de89f41742cc3e.setIcon(icon_c8cbb5255962002bce50ade7234d97b9);
+        
+    
+        var popup_32d9963bf7013f1d10594fbcadfc7bf4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e9342c0f1d5976a36bb7681ab1e71c65 = $(`<div id="html_e9342c0f1d5976a36bb7681ab1e71c65" style="width: 100.0%; height: 100.0%;">M 4.6 - 61 km SSE of Pondaguitan, Philippines at 2023-06-20 09:45:41 (UTC+8)</div>`)[0];
+                popup_32d9963bf7013f1d10594fbcadfc7bf4.setContent(html_e9342c0f1d5976a36bb7681ab1e71c65);
+            
+        
+
+        marker_fee05bedf5dfb64f66de89f41742cc3e.bindPopup(popup_32d9963bf7013f1d10594fbcadfc7bf4)
+        ;
+
+        
+    
+    
+            marker_fee05bedf5dfb64f66de89f41742cc3e.bindTooltip(
+                `<div>
+                     M 4.6 - 61 km SSE of Pondaguitan, Philippines at 2023-06-20 09:45:41 (UTC+8)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a41bd662e601d8ed78cbe3856d285c3c = L.marker(
+                [5.8897, 126.4683],
+                {}
+            ).addTo(map_fb26ed8a1bea7cac409be4429ea2ecd8);
+        
+    
+            var div_icon_2adb672dc36c12a71edc66132e865c9f = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 10pt; color: white;\"\u003e4.6\u003c/div\u003e", "iconAnchor": [9, 25], "iconSize": [18, 70]});
+            marker_a41bd662e601d8ed78cbe3856d285c3c.setIcon(div_icon_2adb672dc36c12a71edc66132e865c9f);
+        
+    
+            var circle_marker_521597c563f90b6125def19501b03f3a = L.circleMarker(
+                [-4.476, 144.913],
+                {"bubblingMouseEvents": true, "color": "#1abc9c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1abc9c", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.235207512532524, "stroke": true, "weight": 3}
+            ).addTo(map_fb26ed8a1bea7cac409be4429ea2ecd8);
+        
+    
+        var popup_48b52fe9a67e564a07514c6d594e1283 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3ccb6098ca73b760aff33aa0ea2442f3 = $(`<div id="html_3ccb6098ca73b760aff33aa0ea2442f3" style="width: 100.0%; height: 100.0%;">M 5.2 - 104 km ESE of Angoram, Papua New Guinea at 2023-06-20 06:40:09 (UTC+8)</div>`)[0];
+                popup_48b52fe9a67e564a07514c6d594e1283.setContent(html_3ccb6098ca73b760aff33aa0ea2442f3);
+            
+        
+
+        circle_marker_521597c563f90b6125def19501b03f3a.bindPopup(popup_48b52fe9a67e564a07514c6d594e1283)
+        ;
+
+        
+    
+    
+            var circle_635d52a654ceb374b5203a436b7e5c8a = L.circle(
+                [-4.476, 144.913],
+                {"bubblingMouseEvents": true, "color": "#3186cc", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3186cc", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.2, "stroke": true, "weight": 3}
+            ).addTo(map_fb26ed8a1bea7cac409be4429ea2ecd8);
+        
+    
+        var popup_d484939986e8526616e92e0ea146c678 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cec6395e97804047a1232d7abde2aea1 = $(`<div id="html_cec6395e97804047a1232d7abde2aea1" style="width: 100.0%; height: 100.0%;">M 5.2 - 104 km ESE of Angoram, Papua New Guinea at 2023-06-20 06:40:09 (UTC+8)</div>`)[0];
+                popup_d484939986e8526616e92e0ea146c678.setContent(html_cec6395e97804047a1232d7abde2aea1);
+            
+        
+
+        circle_635d52a654ceb374b5203a436b7e5c8a.bindPopup(popup_d484939986e8526616e92e0ea146c678)
+        ;
+
+        
+    
+    
+            var marker_583d22e3f4cde802942809b736fb5628 = L.marker(
+                [-4.476, 144.913],
+                {}
+            ).addTo(map_fb26ed8a1bea7cac409be4429ea2ecd8);
+        
+    
+            var icon_32a72beb72f0c59dc67ef2e24dc1a4de = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "circle", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_583d22e3f4cde802942809b736fb5628.setIcon(icon_32a72beb72f0c59dc67ef2e24dc1a4de);
+        
+    
+        var popup_fe3e601185bc86a839036f4e06106de4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_80117631f6f73c7edaa145d603a7fd36 = $(`<div id="html_80117631f6f73c7edaa145d603a7fd36" style="width: 100.0%; height: 100.0%;">M 5.2 - 104 km ESE of Angoram, Papua New Guinea at 2023-06-20 06:40:09 (UTC+8)</div>`)[0];
+                popup_fe3e601185bc86a839036f4e06106de4.setContent(html_80117631f6f73c7edaa145d603a7fd36);
+            
+        
+
+        marker_583d22e3f4cde802942809b736fb5628.bindPopup(popup_fe3e601185bc86a839036f4e06106de4)
+        ;
+
+        
+    
+    
+            marker_583d22e3f4cde802942809b736fb5628.bindTooltip(
+                `<div>
+                     M 5.2 - 104 km ESE of Angoram, Papua New Guinea at 2023-06-20 06:40:09 (UTC+8)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_58547840d86e17a8b6aecdcf64584849 = L.marker(
+                [-4.476, 144.913],
+                {}
+            ).addTo(map_fb26ed8a1bea7cac409be4429ea2ecd8);
+        
+    
+            var div_icon_9abfed44a499da393f77afa06153fd0f = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 10pt; color: white;\"\u003e5.2\u003c/div\u003e", "iconAnchor": [9, 25], "iconSize": [18, 70]});
+            marker_58547840d86e17a8b6aecdcf64584849.setIcon(div_icon_9abfed44a499da393f77afa06153fd0f);
+        
+    
+            var circle_marker_05285be81dc7cc1dc933b05aefa79591 = L.circleMarker(
+                [-20.4356, -177.5581],
+                {"bubblingMouseEvents": true, "color": "#1abc9c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1abc9c", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.456836534418065, "stroke": true, "weight": 3}
+            ).addTo(map_fb26ed8a1bea7cac409be4429ea2ecd8);
+        
+    
+        var popup_1d211e392a44b65a9f726037acabf25b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_66dcab9579222da2f93c44ae5d956e0f = $(`<div id="html_66dcab9579222da2f93c44ae5d956e0f" style="width: 100.0%; height: 100.0%;">M 4.6 - 248 km WNW of Houma, Tonga at 2023-06-20 06:32:13 (UTC+8)</div>`)[0];
+                popup_1d211e392a44b65a9f726037acabf25b.setContent(html_66dcab9579222da2f93c44ae5d956e0f);
+            
+        
+
+        circle_marker_05285be81dc7cc1dc933b05aefa79591.bindPopup(popup_1d211e392a44b65a9f726037acabf25b)
+        ;
+
+        
+    
+    
+            var circle_8278d4d347a6b258bcd59650f72ba252 = L.circle(
+                [-20.4356, -177.5581],
+                {"bubblingMouseEvents": true, "color": "#3186cc", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3186cc", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4.6, "stroke": true, "weight": 3}
+            ).addTo(map_fb26ed8a1bea7cac409be4429ea2ecd8);
+        
+    
+        var popup_18ca1c23ca517e083dfaa07b8d58cc8a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fe8008c3453988325def72a4b36a292e = $(`<div id="html_fe8008c3453988325def72a4b36a292e" style="width: 100.0%; height: 100.0%;">M 4.6 - 248 km WNW of Houma, Tonga at 2023-06-20 06:32:13 (UTC+8)</div>`)[0];
+                popup_18ca1c23ca517e083dfaa07b8d58cc8a.setContent(html_fe8008c3453988325def72a4b36a292e);
+            
+        
+
+        circle_8278d4d347a6b258bcd59650f72ba252.bindPopup(popup_18ca1c23ca517e083dfaa07b8d58cc8a)
+        ;
+
+        
+    
+    
+            var marker_796a08acd4313495aec51fa887367420 = L.marker(
+                [-20.4356, -177.5581],
+                {}
+            ).addTo(map_fb26ed8a1bea7cac409be4429ea2ecd8);
+        
+    
+            var icon_52aa52b74dc706475e22978227020f10 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "circle", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_796a08acd4313495aec51fa887367420.setIcon(icon_52aa52b74dc706475e22978227020f10);
+        
+    
+        var popup_5646e17acfb75f57a1989fc66470bec5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0b117f083af056974c0dff2898f4031d = $(`<div id="html_0b117f083af056974c0dff2898f4031d" style="width: 100.0%; height: 100.0%;">M 4.6 - 248 km WNW of Houma, Tonga at 2023-06-20 06:32:13 (UTC+8)</div>`)[0];
+                popup_5646e17acfb75f57a1989fc66470bec5.setContent(html_0b117f083af056974c0dff2898f4031d);
+            
+        
+
+        marker_796a08acd4313495aec51fa887367420.bindPopup(popup_5646e17acfb75f57a1989fc66470bec5)
+        ;
+
+        
+    
+    
+            marker_796a08acd4313495aec51fa887367420.bindTooltip(
+                `<div>
+                     M 4.6 - 248 km WNW of Houma, Tonga at 2023-06-20 06:32:13 (UTC+8)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_435883c2d7e5957d13a09910aaf20ca3 = L.marker(
+                [-20.4356, -177.5581],
+                {}
+            ).addTo(map_fb26ed8a1bea7cac409be4429ea2ecd8);
+        
+    
+            var div_icon_c98c6dca04daddbdb80de2571bfd61a1 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 10pt; color: white;\"\u003e4.6\u003c/div\u003e", "iconAnchor": [9, 25], "iconSize": [18, 70]});
+            marker_435883c2d7e5957d13a09910aaf20ca3.setIcon(div_icon_c98c6dca04daddbdb80de2571bfd61a1);
+        
+    
+            var circle_marker_0579bdcd0a6ef6ab7c52467cf3aed589 = L.circleMarker(
+                [2.0805, 128.2998],
+                {"bubblingMouseEvents": true, "color": "#1abc9c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1abc9c", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.235207512532524, "stroke": true, "weight": 3}
+            ).addTo(map_fb26ed8a1bea7cac409be4429ea2ecd8);
+        
+    
+        var popup_42dab80a32db89291e02072fe50dd579 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4b7aee405922c48b9c3765960b6b3a64 = $(`<div id="html_4b7aee405922c48b9c3765960b6b3a64" style="width: 100.0%; height: 100.0%;">M 5.2 - Halmahera, Indonesia at 2023-06-20 05:16:29 (UTC+8)</div>`)[0];
+                popup_42dab80a32db89291e02072fe50dd579.setContent(html_4b7aee405922c48b9c3765960b6b3a64);
+            
+        
+
+        circle_marker_0579bdcd0a6ef6ab7c52467cf3aed589.bindPopup(popup_42dab80a32db89291e02072fe50dd579)
+        ;
+
+        
+    
+    
+            var circle_6620dd01b66db65e083b49d5a3219b43 = L.circle(
+                [2.0805, 128.2998],
+                {"bubblingMouseEvents": true, "color": "#3186cc", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3186cc", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.2, "stroke": true, "weight": 3}
+            ).addTo(map_fb26ed8a1bea7cac409be4429ea2ecd8);
+        
+    
+        var popup_5d4290833978e083efcf0bf5edc26086 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7d6ba7b4b045069e6254de758f228098 = $(`<div id="html_7d6ba7b4b045069e6254de758f228098" style="width: 100.0%; height: 100.0%;">M 5.2 - Halmahera, Indonesia at 2023-06-20 05:16:29 (UTC+8)</div>`)[0];
+                popup_5d4290833978e083efcf0bf5edc26086.setContent(html_7d6ba7b4b045069e6254de758f228098);
+            
+        
+
+        circle_6620dd01b66db65e083b49d5a3219b43.bindPopup(popup_5d4290833978e083efcf0bf5edc26086)
+        ;
+
+        
+    
+    
+            var marker_6596da786d1a1adc95a4ee5db152e0d6 = L.marker(
+                [2.0805, 128.2998],
+                {}
+            ).addTo(map_fb26ed8a1bea7cac409be4429ea2ecd8);
+        
+    
+            var icon_a9e1a6627eb8a8a2f18f30ac6a309149 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "circle", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_6596da786d1a1adc95a4ee5db152e0d6.setIcon(icon_a9e1a6627eb8a8a2f18f30ac6a309149);
+        
+    
+        var popup_751488af3eb2cd6cc3994818aa3577ad = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_14347328e026d16aa2be15b2b926a160 = $(`<div id="html_14347328e026d16aa2be15b2b926a160" style="width: 100.0%; height: 100.0%;">M 5.2 - Halmahera, Indonesia at 2023-06-20 05:16:29 (UTC+8)</div>`)[0];
+                popup_751488af3eb2cd6cc3994818aa3577ad.setContent(html_14347328e026d16aa2be15b2b926a160);
+            
+        
+
+        marker_6596da786d1a1adc95a4ee5db152e0d6.bindPopup(popup_751488af3eb2cd6cc3994818aa3577ad)
+        ;
+
+        
+    
+    
+            marker_6596da786d1a1adc95a4ee5db152e0d6.bindTooltip(
+                `<div>
+                     M 5.2 - Halmahera, Indonesia at 2023-06-20 05:16:29 (UTC+8)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8b01ef74e68fe040f358ad8b9ad2a08c = L.marker(
+                [2.0805, 128.2998],
+                {}
+            ).addTo(map_fb26ed8a1bea7cac409be4429ea2ecd8);
+        
+    
+            var div_icon_22742126473cb5dded61aa1f7036f1c4 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 10pt; color: white;\"\u003e5.2\u003c/div\u003e", "iconAnchor": [9, 25], "iconSize": [18, 70]});
+            marker_8b01ef74e68fe040f358ad8b9ad2a08c.setIcon(div_icon_22742126473cb5dded61aa1f7036f1c4);
+        
+    
+            var circle_marker_f94f7538906168c6f37aec2ed9fe3ba6 = L.circleMarker(
+                [46.2188, 153.0898],
+                {"bubblingMouseEvents": true, "color": "#1abc9c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1abc9c", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.292008552890907, "stroke": true, "weight": 3}
+            ).addTo(map_fb26ed8a1bea7cac409be4429ea2ecd8);
+        
+    
+        var popup_d99695dad429fee38103e0be6c0d0b31 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5c028cc331a478ffff62d8f1e6ec2623 = $(`<div id="html_5c028cc331a478ffff62d8f1e6ec2623" style="width: 100.0%; height: 100.0%;">M 4.9 - Kuril Islands at 2023-06-20 01:45:45 (UTC+8)</div>`)[0];
+                popup_d99695dad429fee38103e0be6c0d0b31.setContent(html_5c028cc331a478ffff62d8f1e6ec2623);
+            
+        
+
+        circle_marker_f94f7538906168c6f37aec2ed9fe3ba6.bindPopup(popup_d99695dad429fee38103e0be6c0d0b31)
+        ;
+
+        
+    
+    
+            var circle_46b1b025d3c718ce8ca8428f65816da3 = L.circle(
+                [46.2188, 153.0898],
+                {"bubblingMouseEvents": true, "color": "#3186cc", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3186cc", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4.9, "stroke": true, "weight": 3}
+            ).addTo(map_fb26ed8a1bea7cac409be4429ea2ecd8);
+        
+    
+        var popup_5319605c2c4af7fd34ad5a1d9cb4efdf = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8275ac5e4735ba6e07c797600d26bb08 = $(`<div id="html_8275ac5e4735ba6e07c797600d26bb08" style="width: 100.0%; height: 100.0%;">M 4.9 - Kuril Islands at 2023-06-20 01:45:45 (UTC+8)</div>`)[0];
+                popup_5319605c2c4af7fd34ad5a1d9cb4efdf.setContent(html_8275ac5e4735ba6e07c797600d26bb08);
+            
+        
+
+        circle_46b1b025d3c718ce8ca8428f65816da3.bindPopup(popup_5319605c2c4af7fd34ad5a1d9cb4efdf)
+        ;
+
+        
+    
+    
+            var marker_0498f904165aef352b67e0c90e1e26c1 = L.marker(
+                [46.2188, 153.0898],
+                {}
+            ).addTo(map_fb26ed8a1bea7cac409be4429ea2ecd8);
+        
+    
+            var icon_4ee89f088b0c270b5ef2d875c06871e7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "circle", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_0498f904165aef352b67e0c90e1e26c1.setIcon(icon_4ee89f088b0c270b5ef2d875c06871e7);
+        
+    
+        var popup_18ef4de99afcb0e9ff8cfb2464d9f703 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cf3a5667956df994d1756eae40ae90f8 = $(`<div id="html_cf3a5667956df994d1756eae40ae90f8" style="width: 100.0%; height: 100.0%;">M 4.9 - Kuril Islands at 2023-06-20 01:45:45 (UTC+8)</div>`)[0];
+                popup_18ef4de99afcb0e9ff8cfb2464d9f703.setContent(html_cf3a5667956df994d1756eae40ae90f8);
+            
+        
+
+        marker_0498f904165aef352b67e0c90e1e26c1.bindPopup(popup_18ef4de99afcb0e9ff8cfb2464d9f703)
+        ;
+
+        
+    
+    
+            marker_0498f904165aef352b67e0c90e1e26c1.bindTooltip(
+                `<div>
+                     M 4.9 - Kuril Islands at 2023-06-20 01:45:45 (UTC+8)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8899cff88c5309d07a8ba7accebad0f9 = L.marker(
+                [46.2188, 153.0898],
+                {}
+            ).addTo(map_fb26ed8a1bea7cac409be4429ea2ecd8);
+        
+    
+            var div_icon_c2ea2967a8692b72731872027ea262c2 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 10pt; color: white;\"\u003e4.9\u003c/div\u003e", "iconAnchor": [9, 25], "iconSize": [18, 70]});
+            marker_8899cff88c5309d07a8ba7accebad0f9.setIcon(div_icon_c2ea2967a8692b72731872027ea262c2);
+        
+    
+            var circle_marker_bed80698da75fdd565c492c7ec80cd7c = L.circleMarker(
+                [-4.4758, 144.762],
+                {"bubblingMouseEvents": true, "color": "#1abc9c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1abc9c", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.7240187772131295, "stroke": true, "weight": 3}
+            ).addTo(map_fb26ed8a1bea7cac409be4429ea2ecd8);
+        
+    
+        var popup_286064d2fd3dd574e5ccc014505337a3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7a06f89c33e996db5a8af6fa9c89f4b2 = $(`<div id="html_7a06f89c33e996db5a8af6fa9c89f4b2" style="width: 100.0%; height: 100.0%;">M 4.7 - 89 km ESE of Angoram, Papua New Guinea at 2023-06-20 00:45:49 (UTC+8)</div>`)[0];
+                popup_286064d2fd3dd574e5ccc014505337a3.setContent(html_7a06f89c33e996db5a8af6fa9c89f4b2);
+            
+        
+
+        circle_marker_bed80698da75fdd565c492c7ec80cd7c.bindPopup(popup_286064d2fd3dd574e5ccc014505337a3)
+        ;
+
+        
+    
+    
+            var circle_63bce7f6ac0b3061f0afafa522d17a97 = L.circle(
+                [-4.4758, 144.762],
+                {"bubblingMouseEvents": true, "color": "#3186cc", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3186cc", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4.7, "stroke": true, "weight": 3}
+            ).addTo(map_fb26ed8a1bea7cac409be4429ea2ecd8);
+        
+    
+        var popup_15fc126b6c7af533e48ee4e31c037257 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7eb5994666e7c93d51e8fda910acb7e3 = $(`<div id="html_7eb5994666e7c93d51e8fda910acb7e3" style="width: 100.0%; height: 100.0%;">M 4.7 - 89 km ESE of Angoram, Papua New Guinea at 2023-06-20 00:45:49 (UTC+8)</div>`)[0];
+                popup_15fc126b6c7af533e48ee4e31c037257.setContent(html_7eb5994666e7c93d51e8fda910acb7e3);
+            
+        
+
+        circle_63bce7f6ac0b3061f0afafa522d17a97.bindPopup(popup_15fc126b6c7af533e48ee4e31c037257)
+        ;
+
+        
+    
+    
+            var marker_26d72cd475d5f1c26468c55ff0f7a497 = L.marker(
+                [-4.4758, 144.762],
+                {}
+            ).addTo(map_fb26ed8a1bea7cac409be4429ea2ecd8);
+        
+    
+            var icon_8e504ff35adf0c53d85c9f676fac62b5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "circle", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_26d72cd475d5f1c26468c55ff0f7a497.setIcon(icon_8e504ff35adf0c53d85c9f676fac62b5);
+        
+    
+        var popup_11bc02ee62c59bbde3870a3c1cd89ff8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f3dcc5b2b0cc76990292fd891bf6a18a = $(`<div id="html_f3dcc5b2b0cc76990292fd891bf6a18a" style="width: 100.0%; height: 100.0%;">M 4.7 - 89 km ESE of Angoram, Papua New Guinea at 2023-06-20 00:45:49 (UTC+8)</div>`)[0];
+                popup_11bc02ee62c59bbde3870a3c1cd89ff8.setContent(html_f3dcc5b2b0cc76990292fd891bf6a18a);
+            
+        
+
+        marker_26d72cd475d5f1c26468c55ff0f7a497.bindPopup(popup_11bc02ee62c59bbde3870a3c1cd89ff8)
+        ;
+
+        
+    
+    
+            marker_26d72cd475d5f1c26468c55ff0f7a497.bindTooltip(
+                `<div>
+                     M 4.7 - 89 km ESE of Angoram, Papua New Guinea at 2023-06-20 00:45:49 (UTC+8)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c47fcebf5c72f89a3874b8eff3be0e0a = L.marker(
+                [-4.4758, 144.762],
+                {}
+            ).addTo(map_fb26ed8a1bea7cac409be4429ea2ecd8);
+        
+    
+            var div_icon_a886ad53e4df948759a2666fbf3640bf = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 10pt; color: white;\"\u003e4.7\u003c/div\u003e", "iconAnchor": [9, 25], "iconSize": [18, 70]});
+            marker_c47fcebf5c72f89a3874b8eff3be0e0a.setIcon(div_icon_a886ad53e4df948759a2666fbf3640bf);
+        
+    
+            var circle_marker_8dfe5784f342ac4f95c4fa855b696203 = L.circleMarker(
+                [5.4247, 127.0032],
+                {"bubblingMouseEvents": true, "color": "#1abc9c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1abc9c", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.456836534418065, "stroke": true, "weight": 3}
+            ).addTo(map_fb26ed8a1bea7cac409be4429ea2ecd8);
+        
+    
+        var popup_e6f8de44ca186db104f668d8df6b495c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_80703f96fb5275ac7bff416e5761cbf8 = $(`<div id="html_80703f96fb5275ac7bff416e5761cbf8" style="width: 100.0%; height: 100.0%;">M 4.6 - 138 km SE of Pondaguitan, Philippines at 2023-06-20 00:17:50 (UTC+8)</div>`)[0];
+                popup_e6f8de44ca186db104f668d8df6b495c.setContent(html_80703f96fb5275ac7bff416e5761cbf8);
+            
+        
+
+        circle_marker_8dfe5784f342ac4f95c4fa855b696203.bindPopup(popup_e6f8de44ca186db104f668d8df6b495c)
+        ;
+
+        
+    
+    
+            var circle_1b5bf2f37ab15a703a5de62e71f53e97 = L.circle(
+                [5.4247, 127.0032],
+                {"bubblingMouseEvents": true, "color": "#3186cc", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3186cc", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4.6, "stroke": true, "weight": 3}
+            ).addTo(map_fb26ed8a1bea7cac409be4429ea2ecd8);
+        
+    
+        var popup_ea97b3484c66a2052a2546b65c6f899a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_372893b5071a0b34ea2b89cb2c852f91 = $(`<div id="html_372893b5071a0b34ea2b89cb2c852f91" style="width: 100.0%; height: 100.0%;">M 4.6 - 138 km SE of Pondaguitan, Philippines at 2023-06-20 00:17:50 (UTC+8)</div>`)[0];
+                popup_ea97b3484c66a2052a2546b65c6f899a.setContent(html_372893b5071a0b34ea2b89cb2c852f91);
+            
+        
+
+        circle_1b5bf2f37ab15a703a5de62e71f53e97.bindPopup(popup_ea97b3484c66a2052a2546b65c6f899a)
+        ;
+
+        
+    
+    
+            var marker_f7cce147b895c92c0bcc1c1df0e84ca1 = L.marker(
+                [5.4247, 127.0032],
+                {}
+            ).addTo(map_fb26ed8a1bea7cac409be4429ea2ecd8);
+        
+    
+            var icon_8db3800e62440774e39afdf560fd30dc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "circle", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_f7cce147b895c92c0bcc1c1df0e84ca1.setIcon(icon_8db3800e62440774e39afdf560fd30dc);
+        
+    
+        var popup_1d9fc7c2e0400b422d807ca3029a7669 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1d83245a0a332f39ffe6b8e87944ff8a = $(`<div id="html_1d83245a0a332f39ffe6b8e87944ff8a" style="width: 100.0%; height: 100.0%;">M 4.6 - 138 km SE of Pondaguitan, Philippines at 2023-06-20 00:17:50 (UTC+8)</div>`)[0];
+                popup_1d9fc7c2e0400b422d807ca3029a7669.setContent(html_1d83245a0a332f39ffe6b8e87944ff8a);
+            
+        
+
+        marker_f7cce147b895c92c0bcc1c1df0e84ca1.bindPopup(popup_1d9fc7c2e0400b422d807ca3029a7669)
+        ;
+
+        
+    
+    
+            marker_f7cce147b895c92c0bcc1c1df0e84ca1.bindTooltip(
+                `<div>
+                     M 4.6 - 138 km SE of Pondaguitan, Philippines at 2023-06-20 00:17:50 (UTC+8)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_34b5a424923648d7045ef09cbcb47ae7 = L.marker(
+                [5.4247, 127.0032],
+                {}
+            ).addTo(map_fb26ed8a1bea7cac409be4429ea2ecd8);
+        
+    
+            var div_icon_f9eb98b5593bda7058a98d6d0208e27c = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 10pt; color: white;\"\u003e4.6\u003c/div\u003e", "iconAnchor": [9, 25], "iconSize": [18, 70]});
+            marker_34b5a424923648d7045ef09cbcb47ae7.setIcon(div_icon_f9eb98b5593bda7058a98d6d0208e27c);
+        
+    
+            var circle_marker_03676057f22b31adc8522a06dd51df9a = L.circleMarker(
+                [-4.4469, 144.7119],
+                {"bubblingMouseEvents": true, "color": "#1abc9c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1abc9c", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.7240187772131295, "stroke": true, "weight": 3}
+            ).addTo(map_fb26ed8a1bea7cac409be4429ea2ecd8);
+        
+    
+        var popup_356c0dfa4b3ab3f1a1c52841653e7221 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9a11d09990afe1a6faa8d8e40e54a56e = $(`<div id="html_9a11d09990afe1a6faa8d8e40e54a56e" style="width: 100.0%; height: 100.0%;">M 4.7 - 83 km ESE of Angoram, Papua New Guinea at 2023-06-20 00:14:12 (UTC+8)</div>`)[0];
+                popup_356c0dfa4b3ab3f1a1c52841653e7221.setContent(html_9a11d09990afe1a6faa8d8e40e54a56e);
+            
+        
+
+        circle_marker_03676057f22b31adc8522a06dd51df9a.bindPopup(popup_356c0dfa4b3ab3f1a1c52841653e7221)
+        ;
+
+        
+    
+    
+            var circle_11d35dc68841a32cc91b369c6281fe6a = L.circle(
+                [-4.4469, 144.7119],
+                {"bubblingMouseEvents": true, "color": "#3186cc", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3186cc", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4.7, "stroke": true, "weight": 3}
+            ).addTo(map_fb26ed8a1bea7cac409be4429ea2ecd8);
+        
+    
+        var popup_8ba286c0bf998a0a302db4ea92533c97 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_984229be87de10b69ae07a03777c8e68 = $(`<div id="html_984229be87de10b69ae07a03777c8e68" style="width: 100.0%; height: 100.0%;">M 4.7 - 83 km ESE of Angoram, Papua New Guinea at 2023-06-20 00:14:12 (UTC+8)</div>`)[0];
+                popup_8ba286c0bf998a0a302db4ea92533c97.setContent(html_984229be87de10b69ae07a03777c8e68);
+            
+        
+
+        circle_11d35dc68841a32cc91b369c6281fe6a.bindPopup(popup_8ba286c0bf998a0a302db4ea92533c97)
+        ;
+
+        
+    
+    
+            var marker_6a0aef2a2947cd2785be56f37b24ffcf = L.marker(
+                [-4.4469, 144.7119],
+                {}
+            ).addTo(map_fb26ed8a1bea7cac409be4429ea2ecd8);
+        
+    
+            var icon_8f41e63e82bab2144c595f4e87b19d5c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "circle", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_6a0aef2a2947cd2785be56f37b24ffcf.setIcon(icon_8f41e63e82bab2144c595f4e87b19d5c);
+        
+    
+        var popup_86af8d6a7f076e562d4f9934e60122c4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_afe78fe9620d41dba69cd5b5f76ff931 = $(`<div id="html_afe78fe9620d41dba69cd5b5f76ff931" style="width: 100.0%; height: 100.0%;">M 4.7 - 83 km ESE of Angoram, Papua New Guinea at 2023-06-20 00:14:12 (UTC+8)</div>`)[0];
+                popup_86af8d6a7f076e562d4f9934e60122c4.setContent(html_afe78fe9620d41dba69cd5b5f76ff931);
+            
+        
+
+        marker_6a0aef2a2947cd2785be56f37b24ffcf.bindPopup(popup_86af8d6a7f076e562d4f9934e60122c4)
+        ;
+
+        
+    
+    
+            marker_6a0aef2a2947cd2785be56f37b24ffcf.bindTooltip(
+                `<div>
+                     M 4.7 - 83 km ESE of Angoram, Papua New Guinea at 2023-06-20 00:14:12 (UTC+8)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_034c74a33764ae26594d71dd6676920a = L.marker(
+                [-4.4469, 144.7119],
+                {}
+            ).addTo(map_fb26ed8a1bea7cac409be4429ea2ecd8);
+        
+    
+            var div_icon_68950606388f5deacd3609320cef1b92 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 10pt; color: white;\"\u003e4.7\u003c/div\u003e", "iconAnchor": [9, 25], "iconSize": [18, 70]});
+            marker_034c74a33764ae26594d71dd6676920a.setIcon(div_icon_68950606388f5deacd3609320cef1b92);
+        
+    
+            var circle_marker_e62506eec5fd09751b4d3ab7c421caae = L.circleMarker(
+                [-4.5274, 144.6663],
+                {"bubblingMouseEvents": true, "color": "#1abc9c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1abc9c", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.292008552890907, "stroke": true, "weight": 3}
+            ).addTo(map_fb26ed8a1bea7cac409be4429ea2ecd8);
+        
+    
+        var popup_80935b408b32c6cf71a01f922126d21b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cb594c4cd1a475fdc2b0c0e0fa722e4a = $(`<div id="html_cb594c4cd1a475fdc2b0c0e0fa722e4a" style="width: 100.0%; height: 100.0%;">M 4.9 - 84 km SE of Angoram, Papua New Guinea at 2023-06-19 22:43:47 (UTC+8)</div>`)[0];
+                popup_80935b408b32c6cf71a01f922126d21b.setContent(html_cb594c4cd1a475fdc2b0c0e0fa722e4a);
+            
+        
+
+        circle_marker_e62506eec5fd09751b4d3ab7c421caae.bindPopup(popup_80935b408b32c6cf71a01f922126d21b)
+        ;
+
+        
+    
+    
+            var circle_1d12355406078c4b58f7dafd74ee18f6 = L.circle(
+                [-4.5274, 144.6663],
+                {"bubblingMouseEvents": true, "color": "#3186cc", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3186cc", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4.9, "stroke": true, "weight": 3}
+            ).addTo(map_fb26ed8a1bea7cac409be4429ea2ecd8);
+        
+    
+        var popup_48ba2dc737be11c178fd96630753e98f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f0d811621651b321bcbed76fac3e5082 = $(`<div id="html_f0d811621651b321bcbed76fac3e5082" style="width: 100.0%; height: 100.0%;">M 4.9 - 84 km SE of Angoram, Papua New Guinea at 2023-06-19 22:43:47 (UTC+8)</div>`)[0];
+                popup_48ba2dc737be11c178fd96630753e98f.setContent(html_f0d811621651b321bcbed76fac3e5082);
+            
+        
+
+        circle_1d12355406078c4b58f7dafd74ee18f6.bindPopup(popup_48ba2dc737be11c178fd96630753e98f)
+        ;
+
+        
+    
+    
+            var marker_eaab4d15c6f6803a1e9a4ff71a7412b6 = L.marker(
+                [-4.5274, 144.6663],
+                {}
+            ).addTo(map_fb26ed8a1bea7cac409be4429ea2ecd8);
+        
+    
+            var icon_07559cfa70321a0b1d2069378725ce9b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "circle", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_eaab4d15c6f6803a1e9a4ff71a7412b6.setIcon(icon_07559cfa70321a0b1d2069378725ce9b);
+        
+    
+        var popup_732e46eced4499126c9b6ee92d0a12fa = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ea163b26600238eb7667631bb4ab650d = $(`<div id="html_ea163b26600238eb7667631bb4ab650d" style="width: 100.0%; height: 100.0%;">M 4.9 - 84 km SE of Angoram, Papua New Guinea at 2023-06-19 22:43:47 (UTC+8)</div>`)[0];
+                popup_732e46eced4499126c9b6ee92d0a12fa.setContent(html_ea163b26600238eb7667631bb4ab650d);
+            
+        
+
+        marker_eaab4d15c6f6803a1e9a4ff71a7412b6.bindPopup(popup_732e46eced4499126c9b6ee92d0a12fa)
+        ;
+
+        
+    
+    
+            marker_eaab4d15c6f6803a1e9a4ff71a7412b6.bindTooltip(
+                `<div>
+                     M 4.9 - 84 km SE of Angoram, Papua New Guinea at 2023-06-19 22:43:47 (UTC+8)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ca1e91c46a52972a319b696ce1ea453d = L.marker(
+                [-4.5274, 144.6663],
+                {}
+            ).addTo(map_fb26ed8a1bea7cac409be4429ea2ecd8);
+        
+    
+            var div_icon_9d2de408741aa035fa0d89edef1a2f5b = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 10pt; color: white;\"\u003e4.9\u003c/div\u003e", "iconAnchor": [9, 25], "iconSize": [18, 70]});
+            marker_ca1e91c46a52972a319b696ce1ea453d.setIcon(div_icon_9d2de408741aa035fa0d89edef1a2f5b);
+        
+    
+            var circle_marker_cc4af99900bb6389d5e03398f6f2e39b = L.circleMarker(
+                [46.2139, 153.1857],
+                {"bubblingMouseEvents": true, "color": "#1abc9c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1abc9c", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.00225695281437, "stroke": true, "weight": 3}
+            ).addTo(map_fb26ed8a1bea7cac409be4429ea2ecd8);
+        
+    
+        var popup_66a852d6339407a47dfe4779a02a5cf2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_eba9125c9a48de28e35b37ba619e3218 = $(`<div id="html_eba9125c9a48de28e35b37ba619e3218" style="width: 100.0%; height: 100.0%;">M 4.8 - Kuril Islands at 2023-06-19 22:18:09 (UTC+8)</div>`)[0];
+                popup_66a852d6339407a47dfe4779a02a5cf2.setContent(html_eba9125c9a48de28e35b37ba619e3218);
+            
+        
+
+        circle_marker_cc4af99900bb6389d5e03398f6f2e39b.bindPopup(popup_66a852d6339407a47dfe4779a02a5cf2)
+        ;
+
+        
+    
+    
+            var circle_8f959532d37126a8dd144fd689f8fbeb = L.circle(
+                [46.2139, 153.1857],
+                {"bubblingMouseEvents": true, "color": "#3186cc", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3186cc", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4.8, "stroke": true, "weight": 3}
+            ).addTo(map_fb26ed8a1bea7cac409be4429ea2ecd8);
+        
+    
+        var popup_8904df0564a6e3aed0aa0df4f60e20fb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3fd160264611fbe0c0ca95e40ccb68cf = $(`<div id="html_3fd160264611fbe0c0ca95e40ccb68cf" style="width: 100.0%; height: 100.0%;">M 4.8 - Kuril Islands at 2023-06-19 22:18:09 (UTC+8)</div>`)[0];
+                popup_8904df0564a6e3aed0aa0df4f60e20fb.setContent(html_3fd160264611fbe0c0ca95e40ccb68cf);
+            
+        
+
+        circle_8f959532d37126a8dd144fd689f8fbeb.bindPopup(popup_8904df0564a6e3aed0aa0df4f60e20fb)
+        ;
+
+        
+    
+    
+            var marker_92e47f83f93181cd6f90acf88439f72d = L.marker(
+                [46.2139, 153.1857],
+                {}
+            ).addTo(map_fb26ed8a1bea7cac409be4429ea2ecd8);
+        
+    
+            var icon_926edd6fa320a2557b236aa41fc1fe9e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "circle", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_92e47f83f93181cd6f90acf88439f72d.setIcon(icon_926edd6fa320a2557b236aa41fc1fe9e);
+        
+    
+        var popup_dfd8726e943fa72efcec356ade9c8f68 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b17aa33fdb391a39d7580e5676f47bd4 = $(`<div id="html_b17aa33fdb391a39d7580e5676f47bd4" style="width: 100.0%; height: 100.0%;">M 4.8 - Kuril Islands at 2023-06-19 22:18:09 (UTC+8)</div>`)[0];
+                popup_dfd8726e943fa72efcec356ade9c8f68.setContent(html_b17aa33fdb391a39d7580e5676f47bd4);
+            
+        
+
+        marker_92e47f83f93181cd6f90acf88439f72d.bindPopup(popup_dfd8726e943fa72efcec356ade9c8f68)
+        ;
+
+        
+    
+    
+            marker_92e47f83f93181cd6f90acf88439f72d.bindTooltip(
+                `<div>
+                     M 4.8 - Kuril Islands at 2023-06-19 22:18:09 (UTC+8)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_69e7d888c2f121021ec0b15a7de0f20c = L.marker(
+                [46.2139, 153.1857],
+                {}
+            ).addTo(map_fb26ed8a1bea7cac409be4429ea2ecd8);
+        
+    
+            var div_icon_3391537ea9867fd378b4aa790eb36c32 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 10pt; color: white;\"\u003e4.8\u003c/div\u003e", "iconAnchor": [9, 25], "iconSize": [18, 70]});
+            marker_69e7d888c2f121021ec0b15a7de0f20c.setIcon(div_icon_3391537ea9867fd378b4aa790eb36c32);
+        
+    
+            var circle_marker_d81786914907931aea9abeaad12e6ac5 = L.circleMarker(
+                [15.4915, 96.226],
+                {"bubblingMouseEvents": true, "color": "#1abc9c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1abc9c", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.00225695281437, "stroke": true, "weight": 3}
+            ).addTo(map_fb26ed8a1bea7cac409be4429ea2ecd8);
+        
+    
+        var popup_0a9832009c92de0f553cea5d108bfdae = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_59e7d304520f8471d4e0d95bdc0ae9a1 = $(`<div id="html_59e7d304520f8471d4e0d95bdc0ae9a1" style="width: 100.0%; height: 100.0%;">M 4.8 - 105 km SSE of Pyapon, Myanmar at 2023-06-19 19:36:51 (UTC+8)</div>`)[0];
+                popup_0a9832009c92de0f553cea5d108bfdae.setContent(html_59e7d304520f8471d4e0d95bdc0ae9a1);
+            
+        
+
+        circle_marker_d81786914907931aea9abeaad12e6ac5.bindPopup(popup_0a9832009c92de0f553cea5d108bfdae)
+        ;
+
+        
+    
+    
+            var circle_0817a0e76cc314d939e39c7664ed1d80 = L.circle(
+                [15.4915, 96.226],
+                {"bubblingMouseEvents": true, "color": "#3186cc", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3186cc", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4.8, "stroke": true, "weight": 3}
+            ).addTo(map_fb26ed8a1bea7cac409be4429ea2ecd8);
+        
+    
+        var popup_83f22e9f77c6a04d81ea0a38c24b4b3b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c62cf3944e86c88d1e20bd3bf6bd3d14 = $(`<div id="html_c62cf3944e86c88d1e20bd3bf6bd3d14" style="width: 100.0%; height: 100.0%;">M 4.8 - 105 km SSE of Pyapon, Myanmar at 2023-06-19 19:36:51 (UTC+8)</div>`)[0];
+                popup_83f22e9f77c6a04d81ea0a38c24b4b3b.setContent(html_c62cf3944e86c88d1e20bd3bf6bd3d14);
+            
+        
+
+        circle_0817a0e76cc314d939e39c7664ed1d80.bindPopup(popup_83f22e9f77c6a04d81ea0a38c24b4b3b)
+        ;
+
+        
+    
+    
+            var marker_093a8cd4bd844ac58d9748765721a1cf = L.marker(
+                [15.4915, 96.226],
+                {}
+            ).addTo(map_fb26ed8a1bea7cac409be4429ea2ecd8);
+        
+    
+            var icon_367050cc766be6ffa93a60ded88b309d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "circle", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_093a8cd4bd844ac58d9748765721a1cf.setIcon(icon_367050cc766be6ffa93a60ded88b309d);
+        
+    
+        var popup_6ce1bf8dcb5e99fd6494afee98233000 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_88e1d3c8cc87d625724cb6514cca0246 = $(`<div id="html_88e1d3c8cc87d625724cb6514cca0246" style="width: 100.0%; height: 100.0%;">M 4.8 - 105 km SSE of Pyapon, Myanmar at 2023-06-19 19:36:51 (UTC+8)</div>`)[0];
+                popup_6ce1bf8dcb5e99fd6494afee98233000.setContent(html_88e1d3c8cc87d625724cb6514cca0246);
+            
+        
+
+        marker_093a8cd4bd844ac58d9748765721a1cf.bindPopup(popup_6ce1bf8dcb5e99fd6494afee98233000)
+        ;
+
+        
+    
+    
+            marker_093a8cd4bd844ac58d9748765721a1cf.bindTooltip(
+                `<div>
+                     M 4.8 - 105 km SSE of Pyapon, Myanmar at 2023-06-19 19:36:51 (UTC+8)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_67c4297e485f527242564f63073a284d = L.marker(
+                [15.4915, 96.226],
+                {}
+            ).addTo(map_fb26ed8a1bea7cac409be4429ea2ecd8);
+        
+    
+            var div_icon_e062f69c800157c03d4d1206128d09da = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 10pt; color: white;\"\u003e4.8\u003c/div\u003e", "iconAnchor": [9, 25], "iconSize": [18, 70]});
+            marker_67c4297e485f527242564f63073a284d.setIcon(div_icon_e062f69c800157c03d4d1206128d09da);
+        
+    
+            var circle_marker_a6eb9b6f6e26b36f70f188f1f11a61c7 = L.circleMarker(
+                [-4.4654, 144.8717],
+                {"bubblingMouseEvents": true, "color": "#1abc9c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1abc9c", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.93801282933636, "stroke": true, "weight": 3}
+            ).addTo(map_fb26ed8a1bea7cac409be4429ea2ecd8);
+        
+    
+        var popup_9af4438c3ac1adc418762611ddc03ec3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_954720e2856c96dcf2fd460a4311d259 = $(`<div id="html_954720e2856c96dcf2fd460a4311d259" style="width: 100.0%; height: 100.0%;">M 5.9 - 99 km ESE of Angoram, Papua New Guinea at 2023-06-19 19:18:12 (UTC+8)</div>`)[0];
+                popup_9af4438c3ac1adc418762611ddc03ec3.setContent(html_954720e2856c96dcf2fd460a4311d259);
+            
+        
+
+        circle_marker_a6eb9b6f6e26b36f70f188f1f11a61c7.bindPopup(popup_9af4438c3ac1adc418762611ddc03ec3)
+        ;
+
+        
+    
+    
+            var circle_01cfd1b6b7c8724b902a4802226a2342 = L.circle(
+                [-4.4654, 144.8717],
+                {"bubblingMouseEvents": true, "color": "#3186cc", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3186cc", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.9, "stroke": true, "weight": 3}
+            ).addTo(map_fb26ed8a1bea7cac409be4429ea2ecd8);
+        
+    
+        var popup_236b37a692e8f3af76d9207e186ecac2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_093031d5244ab446c923aacadf40ac73 = $(`<div id="html_093031d5244ab446c923aacadf40ac73" style="width: 100.0%; height: 100.0%;">M 5.9 - 99 km ESE of Angoram, Papua New Guinea at 2023-06-19 19:18:12 (UTC+8)</div>`)[0];
+                popup_236b37a692e8f3af76d9207e186ecac2.setContent(html_093031d5244ab446c923aacadf40ac73);
+            
+        
+
+        circle_01cfd1b6b7c8724b902a4802226a2342.bindPopup(popup_236b37a692e8f3af76d9207e186ecac2)
+        ;
+
+        
+    
+    
+            var marker_0c7218aad00ab0c5d80f0e1aee3a13b5 = L.marker(
+                [-4.4654, 144.8717],
+                {}
+            ).addTo(map_fb26ed8a1bea7cac409be4429ea2ecd8);
+        
+    
+            var icon_1b10a5544c786b763d6406456acbf379 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "circle", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_0c7218aad00ab0c5d80f0e1aee3a13b5.setIcon(icon_1b10a5544c786b763d6406456acbf379);
+        
+    
+        var popup_71ebb04e27f0b23bb4574d30388229ea = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2c9c9cefcef9f20059333c8cddb7eef6 = $(`<div id="html_2c9c9cefcef9f20059333c8cddb7eef6" style="width: 100.0%; height: 100.0%;">M 5.9 - 99 km ESE of Angoram, Papua New Guinea at 2023-06-19 19:18:12 (UTC+8)</div>`)[0];
+                popup_71ebb04e27f0b23bb4574d30388229ea.setContent(html_2c9c9cefcef9f20059333c8cddb7eef6);
+            
+        
+
+        marker_0c7218aad00ab0c5d80f0e1aee3a13b5.bindPopup(popup_71ebb04e27f0b23bb4574d30388229ea)
+        ;
+
+        
+    
+    
+            marker_0c7218aad00ab0c5d80f0e1aee3a13b5.bindTooltip(
+                `<div>
+                     M 5.9 - 99 km ESE of Angoram, Papua New Guinea at 2023-06-19 19:18:12 (UTC+8)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7083ffc833738bc074c99a999600fafd = L.marker(
+                [-4.4654, 144.8717],
+                {}
+            ).addTo(map_fb26ed8a1bea7cac409be4429ea2ecd8);
+        
+    
+            var div_icon_d00914959fb9f48e5eec1bbc91e0089a = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 10pt; color: white;\"\u003e5.9\u003c/div\u003e", "iconAnchor": [9, 25], "iconSize": [18, 70]});
+            marker_7083ffc833738bc074c99a999600fafd.setIcon(div_icon_d00914959fb9f48e5eec1bbc91e0089a);
+        
+    
+            var circle_marker_a97bbe371f8d15c4828d626e68c8faee = L.circleMarker(
+                [23.1208, -108.4155],
+                {"bubblingMouseEvents": true, "color": "#1abc9c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1abc9c", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.235207512532524, "stroke": true, "weight": 3}
+            ).addTo(map_fb26ed8a1bea7cac409be4429ea2ecd8);
+        
+    
+        var popup_56a5c641f9773526fdffecd632e5c9aa = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a48cbdcf812914c3173a8469814f7eb8 = $(`<div id="html_a48cbdcf812914c3173a8469814f7eb8" style="width: 100.0%; height: 100.0%;">M 5.2 - 128 km E of La Playa, Mexico at 2023-06-19 16:55:11 (UTC+8)</div>`)[0];
+                popup_56a5c641f9773526fdffecd632e5c9aa.setContent(html_a48cbdcf812914c3173a8469814f7eb8);
+            
+        
+
+        circle_marker_a97bbe371f8d15c4828d626e68c8faee.bindPopup(popup_56a5c641f9773526fdffecd632e5c9aa)
+        ;
+
+        
+    
+    
+            var circle_2eeb8159dcd400fb9f798de64432f0a9 = L.circle(
+                [23.1208, -108.4155],
+                {"bubblingMouseEvents": true, "color": "#3186cc", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3186cc", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.2, "stroke": true, "weight": 3}
+            ).addTo(map_fb26ed8a1bea7cac409be4429ea2ecd8);
+        
+    
+        var popup_259a34931a75f6b79281ad8aaaefced9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9cac76a60971c62751692284806e91ab = $(`<div id="html_9cac76a60971c62751692284806e91ab" style="width: 100.0%; height: 100.0%;">M 5.2 - 128 km E of La Playa, Mexico at 2023-06-19 16:55:11 (UTC+8)</div>`)[0];
+                popup_259a34931a75f6b79281ad8aaaefced9.setContent(html_9cac76a60971c62751692284806e91ab);
+            
+        
+
+        circle_2eeb8159dcd400fb9f798de64432f0a9.bindPopup(popup_259a34931a75f6b79281ad8aaaefced9)
+        ;
+
+        
+    
+    
+            var marker_4331dc3c15a35a690109b75cec499af9 = L.marker(
+                [23.1208, -108.4155],
+                {}
+            ).addTo(map_fb26ed8a1bea7cac409be4429ea2ecd8);
+        
+    
+            var icon_5f3dec3740b0607ce3d38afbf39323d7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "circle", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_4331dc3c15a35a690109b75cec499af9.setIcon(icon_5f3dec3740b0607ce3d38afbf39323d7);
+        
+    
+        var popup_c862a77dff88dcf143ace52ddc35de20 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5e7863f15cef1242d38f3ef39a131e02 = $(`<div id="html_5e7863f15cef1242d38f3ef39a131e02" style="width: 100.0%; height: 100.0%;">M 5.2 - 128 km E of La Playa, Mexico at 2023-06-19 16:55:11 (UTC+8)</div>`)[0];
+                popup_c862a77dff88dcf143ace52ddc35de20.setContent(html_5e7863f15cef1242d38f3ef39a131e02);
+            
+        
+
+        marker_4331dc3c15a35a690109b75cec499af9.bindPopup(popup_c862a77dff88dcf143ace52ddc35de20)
+        ;
+
+        
+    
+    
+            marker_4331dc3c15a35a690109b75cec499af9.bindTooltip(
+                `<div>
+                     M 5.2 - 128 km E of La Playa, Mexico at 2023-06-19 16:55:11 (UTC+8)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3ed2fd8e19e184f20faeb0e67732c1d6 = L.marker(
+                [23.1208, -108.4155],
+                {}
+            ).addTo(map_fb26ed8a1bea7cac409be4429ea2ecd8);
+        
+    
+            var div_icon_44ef217475b23e85f7974c483e4a160e = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 10pt; color: white;\"\u003e5.2\u003c/div\u003e", "iconAnchor": [9, 25], "iconSize": [18, 70]});
+            marker_3ed2fd8e19e184f20faeb0e67732c1d6.setIcon(div_icon_44ef217475b23e85f7974c483e4a160e);
+        
+</script>
+</html>
